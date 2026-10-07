@@ -1,0 +1,19 @@
+# Python & Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+.env
+venv/
+env/
+
+# Frontend dependencies
+frontend/node_modules/
+
+# Kestrel Confidential Operational Data (Policy §10 Compliance)
+train.csv
+test_unlabelled.csv
+customers.csv
+products.csv
+ops-policy.pdf
+*.parquet
+data/
